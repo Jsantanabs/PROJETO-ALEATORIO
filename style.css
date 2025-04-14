@@ -1,0 +1,79 @@
+body {
+    background-color: #000000; /* Cor de fundo */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+}
+img{
+    width: 500px; /* Largura da imagem */
+    height: 500px; /* Altura da imagem */
+    margin-top: 20px; /* Margem superior */
+    margin-bottom: 10px; /* Margem inferior */
+}
+input{
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-input{
+    margin-right: 40px;
+}
+h1{
+    font-size: 5em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 1em;
+    color: #727272;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    width: 342px;
+    height: 72px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #0a8185;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.main-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+.main-button:active {
+    background-color: #3e8e41; /* Cor ao clicar */
+}
